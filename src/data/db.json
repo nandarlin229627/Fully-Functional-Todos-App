@@ -8,12 +8,12 @@
         {
             "id" : 2,
             "title" : "My second Todo",
-            "copleted" : false
+            "completed" : false
         },
         {
             "id" : 3,
             "title" : "My third Todo",
-            "copleted" : false
+            "completed" : false
         }
     ]
 }
