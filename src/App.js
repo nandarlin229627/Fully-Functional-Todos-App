@@ -2,7 +2,7 @@ import './reset.css';
 import './App.css';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
-import CheckAllAndReaining from './components/CheckAllAndReaining';
+import CheckAllAndReaining from './components/CheckAllAndRemaining';
 import TodoFilters from './components/TodoFilters';
 import ClearCompletedBtn from './components/ClearCompletedBtn';
 import { useEffect, useState } from 'react';
