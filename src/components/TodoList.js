@@ -7,7 +7,7 @@ export default function TodoList({todos}) {
             <li className="todo-item-container" key={todo.id}>
                 <div className="todo-item">
                     <input type="checkbox" />
-                    <span className={`todo-item-label line-through ${todo.completed ? 'line-through' : ''}`}>
+                    <span className={`todo-item-label ${todo.completed ? 'line-through' : ''}`}>
                         {todo.title}
                     </span>
                     {/* <input type="text" className="todo-item-input" value="Go to Grocery" /> */}
