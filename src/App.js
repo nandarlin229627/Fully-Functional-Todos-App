@@ -2,7 +2,7 @@ import './reset.css';
 import './App.css';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
-import CheckAllAndReaining from './components/CheckAllAndRemaining';
+import CheckAllAndRemaining from './components/CheckAllAndRemaining';
 import TodoFilters from './components/TodoFilters';
 import ClearCompletedBtn from './components/ClearCompletedBtn';
 import { useEffect, useState } from 'react';
@@ -25,7 +25,7 @@ function App() {
         <h2>Todo App</h2>
         <TodoForm/>
         <TodoList todos = {todos}/>
-        <CheckAllAndReaining/>
+        <CheckAllAndRemaining/>
         <div className="other-buttons-container">         
           <TodoFilters/>
           <ClearCompletedBtn/>
